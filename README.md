@@ -1,3 +1,7 @@
 docker pull openjdk
-git clone "obnok/java-container"
-ls cd 
+git clone "https://github.com/obnok/java-container.git"
+cd java-container
+head Main.java
+docker build -t main .
+docker run -it main
+docker run main
