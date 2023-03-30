@@ -5,4 +5,3 @@ cd java-container
 head Main.java  
 docker build -t main .  
 docker run -it main  
-docker run main
