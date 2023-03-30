@@ -1,3 +1,4 @@
+https://labs.play-with-docker.com/#  
 docker pull openjdk  
 git clone "https://github.com/obnok/java-container.git"  
 cd java-container  
